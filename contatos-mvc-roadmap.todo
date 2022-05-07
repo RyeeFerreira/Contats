@@ -20,14 +20,14 @@ Fase 2 - Criando e levantando um servidor express:
     ✔ Em app.js: @done(22-05-07 19:45)
         ✔ Importe o express @done(22-05-07 19:46)
         ✔ Crie um servidor e armazene-o em uma constante app @done(22-05-07 19:46)
-        ☐ Para teste posterior, crie uma rota get para '/' que responde "Olá" par ao visitante
-        ☐ Faça com que o servidor escute na porta 3000.
+        ✔ Para teste posterior, crie uma rota get para '/' que responde "Olá" par ao visitante @done(22-05-07 19:47)
+        ✔ Faça com que o servidor escute na porta 3000. @done(22-05-07 19:47)
             Quando o servidor estiver escutando, faça com que apareça a mensagem "Servidor escutando
             na porta 3000" no console
 
     Verificações:
-        ☐ Ao executar o script app.js você deve ver a mensagem "Servidor escutando na porta 3000"
-        ☐ Com o servidor rodando, visite http://localhost:3000 . Um "Olá" deve aparecer.
+        ✔ Ao executar o script app.js você deve ver a mensagem "Servidor escutando na porta 3000" @done(22-05-07 19:47)
+        ✔ Com o servidor rodando, visite http://localhost:3000 . Um "Olá" deve aparecer. @done(22-05-07 19:47)
 
 
 Fase 3 - Configurando o uso do nodemon:
