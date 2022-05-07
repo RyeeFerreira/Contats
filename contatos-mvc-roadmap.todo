@@ -3,12 +3,12 @@ Fase 1 - Setup do projeto:
     Esses passos são necessários para que a pasta na qual estamos
     trabalhando seja um projeto node.
 
-    ☐ Inicie um projeto node
-    ☐ Instale o express.
+    ✔ Inicie um projeto node @started(22-05-07 19:32) @done(22-05-07 19:32) @lasted(39s)
+    ✔ Instale o express. @done(22-05-07 19:32)
 
     Verificações:
-        ☐ Deve existir os arquivos package.json e package-lock.json
-        ☐ Em package.json, no objeto dependencies, deve constar o express
+        ✔ Deve existir os arquivos package.json e package-lock.json @done(22-05-07 19:33)
+        ✔ Em package.json, no objeto dependencies, deve constar o express @done(22-05-07 19:33)
 
 
 Fase 2 - Criando e levantando um servidor express:
@@ -16,10 +16,10 @@ Fase 2 - Criando e levantando um servidor express:
     Essa fase tem por objetivo criar e levantar um servidor
     express para que ele possa receber e responder requisições.
     
-    ☐ Crie um arquivo app.js
-    ☐ Em app.js:
-        ☐ Importe o express
-        ☐ Crie um servidor e armazene-o em uma constante app
+    ✔ Crie um arquivo app.js @done(22-05-07 19:45)
+    ✔ Em app.js: @done(22-05-07 19:45)
+        ✔ Importe o express @done(22-05-07 19:46)
+        ✔ Crie um servidor e armazene-o em uma constante app @done(22-05-07 19:46)
         ☐ Para teste posterior, crie uma rota get para '/' que responde "Olá" par ao visitante
         ☐ Faça com que o servidor escute na porta 3000.
             Quando o servidor estiver escutando, faça com que apareça a mensagem "Servidor escutando
